@@ -18,5 +18,11 @@
         "content": "Acknowledged, adding a button displaying \"Hello World\".",
         "timestamp": "01082024143428",
         "message_id": "guest01082024143426"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Hello World' button to be positioned on the screen?\", \"option1\": \"In the top navigation bar\", \"option2\": \"At the bottom of the screen\"}, {\"question 2\": \"What action should occur when the 'Hello World' button is clicked?\", \"option1\": \"Display a pop-up message saying 'Hello World'\", \"option2\": \"Navigate to a new page with 'Hello World' content\"}], \"input_token_count\": 261, \"output_token_count\": 106, \"time_taken\": \"0:00:03.857198\"}",
+        "timestamp": "01082024143432",
+        "message_id": "guest01082024143426"
     }
 ]
