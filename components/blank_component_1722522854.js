@@ -16,21 +16,25 @@ Vue.component("blank_component_1722522854", {
         <div>
             <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
             <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-            <section id="blank-section" class="bg-white dark:bg-gray-900 flex-1">
-                <nav class="bg-gray-800 p-4">
+            <section id="blank-section" class="bg-gradient-to-br from-pink-400 via-purple-500 to-indigo-600 flex-1 min-h-screen">
+                <nav class="bg-transparent backdrop-filter backdrop-blur-lg bg-opacity-30 p-4 shadow-lg">
                     <div class="container mx-auto flex justify-between items-center">
                         <div class="text-white font-bold text-xl">Logo</div>
                         <div class="space-x-4">
-                            <a href="#" class="text-white hover:text-gray-300">Home</a>
-                            <a href="#" class="text-white hover:text-gray-300">About</a>
-                            <a href="#" class="text-white hover:text-gray-300">Contact</a>
+                            <a href="#" class="text-white hover:text-pink-200 transition duration-300">Home</a>
+                            <a href="#" class="text-white hover:text-pink-200 transition duration-300">About</a>
+                            <a href="#" class="text-white hover:text-pink-200 transition duration-300">Contact</a>
                         </div>
                     </div>
                 </nav>
-                <div id="blank-container" class="max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
-                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                        Hello World
-                    </button>
+                <div id="blank-container" class="max-w-screen-xl px-8 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
+                    <div class="bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-xl p-8 shadow-2xl">
+                        <h2 class="text-4xl font-extrabold text-white mb-6">Welcome to Our Cosmic World</h2>
+                        <p class="text-lg text-pink-100 mb-8">Explore the vibrant universe of possibilities with us.</p>
+                        <button class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white font-bold py-3 px-6 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
+                            Start Your Journey
+                        </button>
+                    </div>
                 </div>
             </section>  
         </div>          
