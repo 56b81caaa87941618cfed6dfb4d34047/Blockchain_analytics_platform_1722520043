@@ -1,64 +1,98 @@
 [
     {
-        "role": "makeinfinite",
-        "content": "Can you describe the project a bit more?",
-        "message_id": "project_init",
-        "timestamp": "1722520047",
+        "role": "chat_acknowledge",
+        "content": "Great, I'll add a button with the label \"Submit\".",
+        "message_id": "guest01082024143653",
+        "timestamp": "01082024143654",
         "component_file_name": "",
-        "div_id": ""
-    },
-    {
-        "role": "user",
-        "content": "add a button that says hello world",
-        "timestamp": "01082024143426",
-        "message_id": "guest01082024143426"
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Acknowledged, adding a button displaying \"Hello World\".",
-        "timestamp": "01082024143428",
-        "message_id": "guest01082024143426"
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Hello World' button to be positioned on the screen?\", \"option1\": \"In the top navigation bar\", \"option2\": \"At the bottom of the screen\"}, {\"question 2\": \"What action should occur when the 'Hello World' button is clicked?\", \"option1\": \"Display a pop-up message saying 'Hello World'\", \"option2\": \"Navigate to a new page with 'Hello World' content\"}], \"input_token_count\": 261, \"output_token_count\": 106, \"time_taken\": \"0:00:03.857198\"}",
-        "timestamp": "01082024143432",
-        "message_id": "guest01082024143426"
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Live blockchain feed display for real-time data analysis\", \"checked\": true}, {\"feature\": \"Interactive charts and graphs for blockchain metrics visualization\", \"checked\": false}, {\"feature\": \"Search functionality to filter specific blockchain or transaction data\", \"checked\": true}, {\"feature\": \"Customizable dashboard for users to track their favorite blockchains\", \"checked\": false}, {\"feature\": \"Notifications for significant blockchain events or changes\", \"checked\": true}, {\"feature\": \"Dark mode option for the app interface\", \"checked\": false}], \"input_token_count\": 215, \"output_token_count\": 112, \"time_taken\": \"0:00:05.667795\"}",
-        "timestamp": "01082024143433",
-        "message_id": "guest01082024143426"
-    },
-    {
-        "role": "user",
-        "content": "add a navbar with navlinks home, about and contact",
-        "timestamp": "01082024143447",
-        "message_id": "guest01082024143447"
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Got it, adding navbar with home, about and contact links.",
-        "timestamp": "01082024143449",
-        "message_id": "guest01082024143447"
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the navbar to be fixed or dynamic as the user scrolls through the page?\", \"option1\": \"Fixed at the top\", \"option2\": \"Dynamic, disappearing upon scrolling down and reappearing on scrolling up\"}, {\"question 2\": \"What style of animation or visual transition do you prefer for when a user hovers over the navlinks?\", \"option1\": \"A simple color change\", \"option2\": \"An underline that appears or grows\"}], \"input_token_count\": 265, \"output_token_count\": 110, \"time_taken\": \"0:00:03.835946\"}",
-        "timestamp": "01082024143452",
-        "message_id": "guest01082024143447"
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Sticky header with logo and navbar for improved navigation experience\", \"checked\": true}, {\"feature\": \"Footer with contact information, social media links, and quick access to main sections\", \"checked\": true}, {\"feature\": \"Search functionality in the navbar for quickly finding specific blockchain information\", \"checked\": false}, {\"feature\": \"Dropdown menus under navlinks for categorized information access (e.g., Blockchain Types, Latest Blocks, Transaction Histories)\", \"checked\": false}, {\"feature\": \"Dark mode toggle on the navbar for user preference\", \"checked\": false}, {\"feature\": \"User account/profile icon on the navbar for login or registration\", \"checked\": false}], \"input_token_count\": 219, \"output_token_count\": 140, \"time_taken\": \"0:00:07.603425\"}",
-        "timestamp": "01082024143456",
-        "message_id": "guest01082024143447"
+        "div_id": "",
+        "div_action": ""
     },
     {
         "role": "user",
         "content": "add a button that says Submit",
+        "message_id": "guest01082024143653",
         "timestamp": "01082024143653",
+        "component_file_name": "blank_component_1722522854",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Sticky header with logo and navbar for improved navigation experience\", \"checked\": true}, {\"feature\": \"Footer with contact information, social media links, and quick access to main sections\", \"checked\": true}, {\"feature\": \"Search functionality in the navbar for quickly finding specific blockchain information\", \"checked\": false}, {\"feature\": \"Dropdown menus under navlinks for categorized information access (e.g., Blockchain Types, Latest Blocks, Transaction Histories)\", \"checked\": false}, {\"feature\": \"Dark mode toggle on the navbar for user preference\", \"checked\": false}, {\"feature\": \"User account/profile icon on the navbar for login or registration\", \"checked\": false}], \"input_token_count\": 219, \"output_token_count\": 140, \"time_taken\": \"0:00:07.603425\"}",
+        "message_id": "guest01082024143447",
+        "timestamp": "01082024143456",
+        "component_file_name": "blank_component_1722522854",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the navbar to be fixed or dynamic as the user scrolls through the page?\", \"option1\": \"Fixed at the top\", \"option2\": \"Dynamic, disappearing upon scrolling down and reappearing on scrolling up\"}, {\"question 2\": \"What style of animation or visual transition do you prefer for when a user hovers over the navlinks?\", \"option1\": \"A simple color change\", \"option2\": \"An underline that appears or grows\"}], \"input_token_count\": 265, \"output_token_count\": 110, \"time_taken\": \"0:00:03.835946\"}",
+        "message_id": "guest01082024143447",
+        "timestamp": "01082024143452",
+        "component_file_name": "blank_component_1722522854",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Got it, adding navbar with home, about and contact links.",
+        "message_id": "guest01082024143447",
+        "timestamp": "01082024143449",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "add a navbar with navlinks home, about and contact",
+        "message_id": "guest01082024143447",
+        "timestamp": "01082024143447",
+        "component_file_name": "blank_component_1722522854",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Live blockchain feed display for real-time data analysis\", \"checked\": true}, {\"feature\": \"Interactive charts and graphs for blockchain metrics visualization\", \"checked\": false}, {\"feature\": \"Search functionality to filter specific blockchain or transaction data\", \"checked\": true}, {\"feature\": \"Customizable dashboard for users to track their favorite blockchains\", \"checked\": false}, {\"feature\": \"Notifications for significant blockchain events or changes\", \"checked\": true}, {\"feature\": \"Dark mode option for the app interface\", \"checked\": false}], \"input_token_count\": 215, \"output_token_count\": 112, \"time_taken\": \"0:00:05.667795\"}",
+        "message_id": "guest01082024143426",
+        "timestamp": "01082024143433",
+        "component_file_name": "blank_component_1722522854",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Hello World' button to be positioned on the screen?\", \"option1\": \"In the top navigation bar\", \"option2\": \"At the bottom of the screen\"}, {\"question 2\": \"What action should occur when the 'Hello World' button is clicked?\", \"option1\": \"Display a pop-up message saying 'Hello World'\", \"option2\": \"Navigate to a new page with 'Hello World' content\"}], \"input_token_count\": 261, \"output_token_count\": 106, \"time_taken\": \"0:00:03.857198\"}",
+        "message_id": "guest01082024143426",
+        "timestamp": "01082024143432",
+        "component_file_name": "blank_component_1722522854",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Acknowledged, adding a button displaying \"Hello World\".",
+        "message_id": "guest01082024143426",
+        "timestamp": "01082024143428",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "add a button that says hello world",
+        "message_id": "guest01082024143426",
+        "timestamp": "01082024143426",
+        "component_file_name": "blank_component_1722522854",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "summary",
+        "content": "Can you describe the project a bit more?",
+        "timestamp": "01082024143654",
         "message_id": "guest01082024143653"
     }
 ]
