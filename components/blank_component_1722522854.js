@@ -33,6 +33,10 @@ Vue.component("blank_component_1722522854", {
                         <p class="text-lg text-pink-100 mb-8">Explore the vibrant universe of possibilities with us.</p>
                         <button class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white font-bold py-3 px-6 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
                             Start Your Journey
+                            Start Your Journey
+                        </button>
+                        <button class="bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 text-white font-bold py-3 px-6 rounded-full shadow-lg transition duration-300 transform hover:scale-105 ml-4">
+                            Submit
                         </button>
                     </div>
                 </div>
