@@ -42,5 +42,11 @@
         "content": "Got it, adding navbar with home, about and contact links.",
         "timestamp": "01082024143449",
         "message_id": "guest01082024143447"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the navbar to be fixed or dynamic as the user scrolls through the page?\", \"option1\": \"Fixed at the top\", \"option2\": \"Dynamic, disappearing upon scrolling down and reappearing on scrolling up\"}, {\"question 2\": \"What style of animation or visual transition do you prefer for when a user hovers over the navlinks?\", \"option1\": \"A simple color change\", \"option2\": \"An underline that appears or grows\"}], \"input_token_count\": 265, \"output_token_count\": 110, \"time_taken\": \"0:00:03.835946\"}",
+        "timestamp": "01082024143452",
+        "message_id": "guest01082024143447"
     }
 ]
