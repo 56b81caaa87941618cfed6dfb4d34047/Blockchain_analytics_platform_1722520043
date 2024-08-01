@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Sticky header with logo and navbar for improved navigation experience\", \"checked\": true}, {\"feature\": \"Footer with contact information, social media links, and quick access to main sections\", \"checked\": true}, {\"feature\": \"Search functionality in the navbar for quickly finding specific blockchain information\", \"checked\": false}, {\"feature\": \"Dropdown menus under navlinks for categorized information access (e.g., Blockchain Types, Latest Blocks, Transaction Histories)\", \"checked\": false}, {\"feature\": \"Dark mode toggle on the navbar for user preference\", \"checked\": false}, {\"feature\": \"User account/profile icon on the navbar for login or registration\", \"checked\": false}], \"input_token_count\": 219, \"output_token_count\": 140, \"time_taken\": \"0:00:07.603425\"}",
+        "message_id": "guest01082024143447",
+        "timestamp": "01082024143456",
+        "component_file_name": "blank_component_1722522854",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the navbar to be fixed or dynamic as the user scrolls through the page?\", \"option1\": \"Fixed at the top\", \"option2\": \"Dynamic, disappearing upon scrolling down and reappearing on scrolling up\"}, {\"question 2\": \"What style of animation or visual transition do you prefer for when a user hovers over the navlinks?\", \"option1\": \"A simple color change\", \"option2\": \"An underline that appears or grows\"}], \"input_token_count\": 265, \"output_token_count\": 110, \"time_taken\": \"0:00:03.835946\"}",
         "message_id": "guest01082024143447",
