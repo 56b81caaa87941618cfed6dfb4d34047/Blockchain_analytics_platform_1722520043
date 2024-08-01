@@ -54,5 +54,11 @@
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Sticky header with logo and navbar for improved navigation experience\", \"checked\": true}, {\"feature\": \"Footer with contact information, social media links, and quick access to main sections\", \"checked\": true}, {\"feature\": \"Search functionality in the navbar for quickly finding specific blockchain information\", \"checked\": false}, {\"feature\": \"Dropdown menus under navlinks for categorized information access (e.g., Blockchain Types, Latest Blocks, Transaction Histories)\", \"checked\": false}, {\"feature\": \"Dark mode toggle on the navbar for user preference\", \"checked\": false}, {\"feature\": \"User account/profile icon on the navbar for login or registration\", \"checked\": false}], \"input_token_count\": 219, \"output_token_count\": 140, \"time_taken\": \"0:00:07.603425\"}",
         "timestamp": "01082024143456",
         "message_id": "guest01082024143447"
+    },
+    {
+        "role": "user",
+        "content": "add a button that says Submit",
+        "timestamp": "01082024143653",
+        "message_id": "guest01082024143653"
     }
 ]
